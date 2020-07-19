@@ -1,0 +1,47 @@
+$white: #fff;
+$blue-color: #0034a6;
+$secondary-color: #75848b;
+
+.rg-react-radio {
+    cursor: pointer;
+
+    &--disabled {
+      cursor: default;  
+    }
+  
+    &--check {
+      width: 32px !important;
+  
+      & > div {
+        padding: 0 !important;
+      }
+    }
+  
+    &--title {
+      margin-left: 6px;
+      font-size: 14px;
+    }
+
+    &__icon-check {
+      width: 10px;
+      height: 10px;
+      background: $blue-color;
+      border-radius: 50%;
+
+      &--disabled {
+        background: $secondary-color;
+      }
+    }
+
+    &__check-wrap {
+      width: 20px;
+      height: 20px;
+      background: $white;
+      border: 2px solid $blue-color;
+      border-radius: 50%;
+
+      &--disabled {
+        border: 2px solid $secondary-color;
+      }
+    }
+  }

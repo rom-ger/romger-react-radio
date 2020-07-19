@@ -1,0 +1,12 @@
+gulpfile.js
+webpack.config.js
+node_modules/**/*.*
+assets/**/*.*
+*.min.js
+lib
+indexHtmlConfigTemplate.jsx
+indexHtmlConfigComponent.js
+globalConfig.js
+lz-string.js
+leaflet.js
+Control.Geocoder.min.js
